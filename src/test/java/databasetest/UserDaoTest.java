@@ -42,7 +42,7 @@ public class UserDaoTest {
             List<String> actual = sut.getList();
             // Verify
             assertThat(actual, is(notNullValue()));
-            assertThat(actual.size(), is(2));
+            assertThat(actual.size(), is(1));
             assertThat(actual.get(0), is("Ichiro"));
             assertThat(actual.get(1), is("Jiro"));
         }

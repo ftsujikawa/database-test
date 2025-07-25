@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="databasetest.UserDaoTest" time="0.726" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="24.0.1"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/24.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/tsu/src/java/junitbook/database-test"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="JP"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/tsu/src/java/junitbook/database-test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="24.0.1"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/48/536s6ywx1456f8b5ksbw_yjh0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.9.10/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/tsu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.9.10/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="68.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="15.5"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.9.10/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/tsu"/>
+    <property name="user.timezone" value="Asia/Tokyo"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="24"/>
+    <property name="user.name" value="tsu"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.9.10/libexec/boot/plexus-classworlds-2.9.0.jar"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/24.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="apple.awt.application.name" value="Launcher"/>
+    <property name="user.language" value="ja"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="24.0.1"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.9.10/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase classname="databasetest.UserDaoTest$users\u306B0\u4EF6\u306E\u30EC\u30B3\u30FC\u30C9\u304C\u3042\u308B\u5834\u5408" name="getList\u30670\u4EF6\u53D6\u5F97\u3067\u304D\u308B\u4E8B" time="0.268"/>
+  <testcase classname="databasetest.UserDaoTest$users\u306B0\u4EF6\u306E\u30EC\u30B3\u30FC\u30C9\u304C\u3042\u308B\u5834\u5408" name="insert\u30671\u4EF6\u8FFD\u52A0\u3067\u304D\u308B" time="0.029"/>
+  <testcase classname="databasetest.UserDaoTest$users\u306B2\u4EF6\u306E\u30EC\u30B3\u30FC\u30C9\u304C\u3042\u308B\u5834\u5408" name="insert\u30671\u4EF6\u8FFD\u52A0\u3067\u304D\u308B" time="0.024"/>
+  <testcase classname="databasetest.UserDaoTest$users\u306B2\u4EF6\u306E\u30EC\u30B3\u30FC\u30C9\u304C\u3042\u308B\u5834\u5408" name="getList\u30672\u4EF6\u53D6\u5F97\u3067\u304D\u308B\u4E8B" time="0.018"/>
+</testsuite>
